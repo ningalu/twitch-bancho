@@ -53,9 +53,8 @@ startBanchoBot();
 // message handler
 function onMessageHandler (target, context, msg, self) {
     if (self) { return; }
-
-    console.log(target.slice(1) + ": " + msg);
-    recipient.sendMessage(target.slice(1) + ": " + msg);
+    console.log(context.username + ": " + msg);
+    recipient.sendMessage(context.username + ": " + msg);
 }
 
 // connection log
