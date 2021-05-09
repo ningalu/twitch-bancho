@@ -1,0 +1,24 @@
+{
+  "name": "twitch-bancho",
+  "version": "1.0.0",
+  "description": "Takes twitch chat from a list of channels and sends it to you on osu! via IRC",
+  "main": "index.js",
+  "dependencies": {
+    "bancho.js": "^0.9.7",
+    "tmi.js": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ningalu/twitch-bancho.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ningalu/twitch-bancho/issues"
+  },
+  "homepage": "https://github.com/ningalu/twitch-bancho#readme"
+}
